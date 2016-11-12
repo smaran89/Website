@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" datatoggle="collapse" data-target="#navbar" aria-expanded="false" ariacontrols="navbar">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#">Katering Show</a>
+</div>
+<div id="navbar" class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href="#">Home</a></li>
+<li><a href="#">Overview</a></li>
+<li><a href="#">Episodes</a></li>
+</ul>
+</div><!--/.nav-collapse -->
+</div>
+</nav>
+
+	<head>
+
+		<!-- CSS Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+		<!-- jquery -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery
+	.min.js"></script>
+
+		<!-- Bootstrap Javascript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+		<title>Katering Show Website</title>
+			<div class="container">
+				<div class="jumbotron">
+					<h1><strong><span style= "color: red">The Katering Show</span></strong></h1>
+					<h2><strong>Hosts - Kate McLennan & Kate McCartney</strong>
+					</h2>
+					<h3><strong>The Journey of a Food Intolerant and and an Intolerant Foodie</h3>
+					<a class = "btn btn-lg btn-success" href="http://thekateringshow.com/" role="button">Our Website</a>
+				</div>
+			</div>
+		
+<!-- Adding style to the web page -->
+		<style>
+		body{
+		background-color: #FFDEAD;
+		font-family: arial, helvetica, sans-serif;
+		font-size: 20px;
+		}
+		#img1{height: 300px;}
+		#img2{height: 300px;}
+		#img3{height: 350px;}
+		#img4{height: 350px;}		
+		h1{font-size: 40px;}
+		h2{color: black;
+			font-style: italic;
+			font-size: 25px}
+		h3{color: blue;}
+		</style>
+	</head>
+
+	<body>
+		<img id= "img1"; src="https://yt3.ggpht.com/-6lRXUCa1p2c/AAAAAAAAAAI/AAAAAAAAAAA/uF8aRq_-xtE/s900-c-k-no-mo-rj-c0xffffff/photo.jpg"><br><br>
+			<div>
+			<h4><strong>The show:</strong></h4>
+			<ul style="list-style-type:square">
+				<span style = "color:blue">
+				<li>Is Fun</li>
+				<li>Is Goofy</li>
+				<li>Is Informative</li>
+				<li>Provides cooking tips</li>
+				<li>Provides best drink pairing for different food types</li>
+				</span>
+			</ul>
+			</div>
+		<a href="https://imgur.com/r/whitepeoplegifs/74fJJsk">We love being silly</a>
+		<br>
+		<img id="img2"; src="http://i.makeagif.com/media/5-20-2015/b0eUk2.gif"><br><br>
+		<p>Check out our Seasoning 2 trailer</p>
+
+	<!-- Adding Video -->
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/R_2BHP7Lq-s" frameborder="0" allowfullscreen></iframe><br><br>
+
+		<!-- Carousel script -->
+		<p> Here are some pictures of us </p>
+
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<img id="img3"; src="http://blerg.com.au/wp-content/uploads/2016/04/katering-show01.jpg">
+				</div>
+			<div class="item">
+				<img id="img4"; src="http://www.stuff.co.nz/content/dam/images/1/3/k/g/9/p/image.related.StuffLandscapeSixteenByNine.620x349.13kzkh.png/1424478522902.jpg">
+			</div>
+			</div>
+		</div>
+
+		<!-- Carousel Animcation -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#myCarousel").carousel({interval: 2000});
+		});
+	</script>
+	</body>
+</html>
